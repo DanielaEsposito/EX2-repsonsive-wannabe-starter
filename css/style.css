@@ -152,8 +152,11 @@ img {
     width: 100%;
     margin: 20px 0px;
   }
+  .steps.text-center{
+    margin: 0%;
+  }
  
-  .why-us .container {
+  .why-us  {
     background-color: #0d0f1a;
     margin: 0px;
     
