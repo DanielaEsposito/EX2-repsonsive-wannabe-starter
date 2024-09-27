@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-  width: 1140px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -130,11 +130,8 @@ img {
  ************************************************/
 @media screen and (min-widt: 768px) {
   .container > .steps {
-    width: 100wv;
+    width: 100%;
     ;
-  }
-  .row {
-    flex-wrap: wrapproblem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -156,19 +153,11 @@ img {
   }
   .steps .col {
     width: 100%;
-    padding: 5px 0%;
-    margin: 5px 0%;
+   
   }
-  .card {
-    width: 100%;
-    margin: 5px 0%;
-  }
-  .why-us{
+  
+.why-us{
     background-color: #0d0f1a;
   }
-  p.text{
-    margin: 5px 0%;
-    padding: 0%;
-  
-  }
+ 
 }
