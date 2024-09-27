@@ -91,6 +91,7 @@ img {
   padding: 3rem 0;
   color: #232946;
   background: #eebbc3;
+  
 }
 
 .steps h2,
@@ -130,6 +131,7 @@ img {
 @media screen and (min-widt: 768px) {
   .container > .steps {
     width: 100wv;
+    ;
   }
   .row {
     flex-wrap: wrapproblem;
@@ -148,23 +150,25 @@ img {
   }
   .row {
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    box-sizing: content-box;
     padding: 0%;
+    margin: 5px 0px;
   }
-  .col {
+  .steps .col {
     width: 100%;
-    padding: 0%;
-    margin: 0%;
+    padding: 5px 0%;
+    margin: 5px 0%;
   }
   .card {
     width: 100%;
-    margin: 0%;
+    margin: 5px 0%;
+  }
+  .why-us{
+    background-color: #0d0f1a;
   }
   p.text{
-    margin: 0%;
+    margin: 5px 0%;
     padding: 0%;
+  
   }
 }
