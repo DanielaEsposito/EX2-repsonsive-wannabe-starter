@@ -141,13 +141,30 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
   .row {
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 0%;
   }
   .col {
     width: 100%;
+    padding: 0%;
+    margin: 0%;
   }
   .card {
     width: 100%;
+    margin: 0%;
+  }
+  p.text{
+    margin: 0%;
+    padding: 0%;
   }
 }
